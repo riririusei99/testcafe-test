@@ -6,11 +6,8 @@
   "scripts": {
     "test": "testcafe chrome tests/*_spec.js --skip-js-errors"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/riririusei99/testcafe-test.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/riririusei99/testcafe-test.git",
+  "author": "Ryusei Namai <riry1313@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/riririusei99/testcafe-test/issues"
