@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 
 fixture `My First Test`
-    .page `http://teamspirit.hatenablog.com/`;
+    .page `http://riririusei99.hatenadiary.jp/`;
 
 test('Search riririusei99', async t => {
     await t
@@ -9,5 +9,5 @@ test('Search riririusei99', async t => {
       .click('input[type=submit]');
 
     const title = await t.eval(() => document.title);
-    await t.expect(title).eql('riririusei99 の検索結果 - チームスピリットデベロッパーブログ');
+    await t.expect(title).eql('riririusei99 の検索結果 - riririusei99’s blog');
 });
