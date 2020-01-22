@@ -4,13 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome tests/*_spec.js --skip-js-errors"
+    "test": "testcafe chrome tests/*_spec.js --skip-js-errors",
+    "test-ci": "testcafe chrome:headless tests/*_spec.js -r xunit:/tmp/test-results/res.xml --skip-js-errors"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/riririusei99/testcafe-test.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/riririusei99/testcafe-test.git",
+  "author": "Ryusei Namai <riry1313@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/riririusei99/testcafe-test/issues"
@@ -18,5 +16,8 @@
   "homepage": "https://github.com/riririusei99/testcafe-test#readme",
   "devDependencies": {
     "testcafe": "^1.8.0"
+  },
+  "dependencies": {
+    "testcafe-reporter-xunit": "^2.1.0"
   }
 }
