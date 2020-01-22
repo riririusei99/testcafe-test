@@ -5,9 +5,9 @@ fixture `My First Test`
 
 test('Search riririusei99', async t => {
     await t
-      .typeText('input[type=text', 'riririusei99')
+      .typeText('input[type=text]', 'riririusei99')
       .click('input[type=submit]');
 
     const title = await t.eval(() => document.title);
-    await t.expect(title).eql('riririusei99 の検索結果 - TeamSpirit Developer Blog');
+    await t.expect(title).eql('riririusei99 の検索結果 - チームスピリットデベロッパーブログ');
 });
