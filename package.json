@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome tests/ --skip-js-errors"
+    "test": "testcafe chrome tests/*_spec.js --skip-js-errors"
   },
   "repository": {
     "type": "git",
