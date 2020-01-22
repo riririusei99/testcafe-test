@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/riririusei99/testcafe-test#readme",
   "devDependencies": {
-    "testcafe": "^0.18.6"
+    "testcafe": "^1.8.0"
   }
 }
