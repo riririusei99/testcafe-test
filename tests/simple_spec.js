@@ -9,5 +9,5 @@ test('Search riririusei99', async t => {
       .click(page.searchSubmit);
 
     const title = await t.eval(() => document.title);
-    await t.expect(title).eql('riririusei99 の検索結果 - riririusei99’s blog');
+    await t.expect(title).eql('riririusei99 の検索結果 - riririusei99’s blog!!');
 });
